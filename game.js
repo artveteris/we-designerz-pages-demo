@@ -2,7 +2,7 @@ const canvas = document.querySelector('#game');
 const context = canvas.getContext('2d');
 const spark = new Image();
 
-spark.src = './Assets/Spark.PNG';
+spark.src = './assets/spark.png';
 
 let score = 0;
 let secondsLeft = 20;
